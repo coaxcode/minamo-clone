@@ -1,1 +1,249 @@
-@import url("reset.css")
+@import url("reset.css");
+
+/*
+    ================================
+    Custom Styles
+    ================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+*:focus {
+    outline: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+
+}
+
+p {
+    padding: 16px 0;
+    text-align: justify;
+    color: #5a5a5a;
+}
+
+.article-title {
+    font-size: 20px;
+    padding: 16px 0;
+
+}
+/*
+    ================================
+    Grid
+    ================================
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.article {
+    padding: 60px 60px 25px 60px;
+}
+
+.article img {
+    width: 100%;
+    opacity: 0.85;
+    padding-bottom: 20px;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.half-column  {
+    width: 50%;
+}
+
+.left {
+    float: left;
+    padding-right: 15px;
+}
+
+.right {
+    float: right;
+    padding-left: 15px
+}
+
+/*
+    ================================
+    Header
+    ================================
+*/
+
+.primary-header {
+    padding-top: 40px;
+}
+
+.logo {
+    float: left;
+    font-size: 22px;
+}
+
+.hero-image img {
+    display: block;
+    padding-top: 40px;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+/*
+    ================================
+    Footer
+    ================================
+*/
+
+.primary-footer {
+    background-color:#f3f3f3;
+    height: 100px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+
+}
+
+/*
+    ================================
+    Navigation
+    ================================
+*/
+
+.nav li {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Playfair Display', serif;
+}
+
+.primary-navigation {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.primary-navigation li {
+    margin: 0 20px;
+}
+
+.primary-navigation li:last-child {
+    margin-right: 0;
+}
+
+.secondary-navigation {
+    text-align: right;
+    padding: 40px 0;
+}
+
+.secondary-navigation li {
+    margin: 0 10px;
+
+}
+
+.secondary-navigation li:first-child {
+    margin-left: 0;
+}
+
+/*
+    ================================
+    Links
+    ================================
+*/
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+.secondary-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 16px 0;
+}
+
+p a {
+    border-bottom: 1px solid red;
+}
+
+
+/*
+    ================================
+    Newsletter
+    ================================
+*/
+
+.newsletter {
+    background-color:#f3f3f3;
+    height: 200px;
+    width: 840px;
+    margin: 0 auto;
+}
+
+.signup {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.signupButton {
+    background-color:transparent;
+    background-image: url("./../icons/arrow.png");
+    background-repeat: no-repeat;
+    border: 0;
+    margin: -15px;
+    width: 20px;
+}
+
+
+#newsletter {
+    font-family: 'Playfair Display', serif;
+
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;
+    background-position: right;
+    background-color:transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    color:
+}
+
+/*
+    ================================
+    Social Icons
+    ================================
+*/
+
+.social-ico {
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+
+.Facebook-ico {
+    background-image: url("../icons/Facebook-ico.png");
+}
+.Twitter-ico {
+    background-image: url("../icons/Twitter-ico.png");
+}
+.Instagram-ico {
+    background-image: url("../icons/Instagram-ico.png");
+}

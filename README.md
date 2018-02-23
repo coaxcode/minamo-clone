@@ -1,4 +1,4 @@
-#Minimo Clone
+# Minimo Clone
 
 My attempt to clone Minimo blog design in HTML and CSS.
 
